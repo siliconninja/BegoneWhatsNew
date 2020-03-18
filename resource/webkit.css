@@ -7,3 +7,15 @@
 [class*="appdetailsoverview_Spotlights"] {
 	display: none !important;
 }
+/* Removing event details. This is only useful if you are into events for games like TF2. For other games probably not. */
+/* this removes content but not dates.  */
+/*[class*="appactivityday_Event"] {
+	display: none !important;
+}*/
+/* this breaks the entire game details page, because the body and sides are removed */
+/*[class*="appdetailssection_AppDetailsSectionContainer"] {
+	display: none !important;
+}*/
+[class*="appactivityday_AppActivityDay"] {
+	display: none !important;
+}
