@@ -4,3 +4,6 @@
 [class*="appdetailsspotlight_ReviewContainer"] {
 	display: none !important;
 }
+[class*="appdetailsoverview_Spotlights"] {
+	display: none !important;
+}
